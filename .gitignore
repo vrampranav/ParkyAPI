@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Parky/.vs/Parky/v16
+/Parky/ParkyAPI/obj
+/Parky/ParkyAPI/bin/Debug/netcoreapp3.1
+/Parky/.vs/Parky/config
