@@ -37,7 +37,16 @@ namespace ParkyAPI
                     new Microsoft.OpenApi.Models.OpenApiInfo()
                     {
                         Title = "ParkyApi",
-                        Version = "1"
+                        Version = "1",
+                        Contact = new Microsoft.OpenApi.Models.OpenApiContact()
+                        {
+                            Name = "Ram",
+                            Email = "ram@gmail.com"
+                        },
+                        License = new Microsoft.OpenApi.Models.OpenApiLicense()
+                        {
+                            Name = "Liscence",
+                        }
                     });
                 var xmlCommentFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
                 var xmlCommentsFullPath = Path.Combine(AppContext.BaseDirectory, xmlCommentFile);
